@@ -57,7 +57,7 @@ para um arquivo .parquet(flat)
 
         pip install pytest
 
-**Para executar os testes basta digitar o seguinte comando no terminal (dentro do diretório do root do projeto)**
+**Para executar os testes basta digitar o seguinte comando no terminal (dentro do diretório root do projeto)**
         
         pytest
 
