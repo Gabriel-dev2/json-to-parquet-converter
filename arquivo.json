@@ -1,0 +1,26 @@
+{
+  "nome": "Thor",
+  "titulo": "Odin Son",
+  "flag_vingador": 1,
+  "senha_aeronave_stark": "Vingador mais forte",
+  "data_nascimento": "1990-01-10 12:55:00",
+  "telefones": [
+    {
+      "tipo": "residencial",
+      "numero": "11 1111-1111"
+    },
+    {
+      "comercial": "22 2222-2222",
+      "celular": "33 93333-3333"
+    }
+  ],
+  "endereços": [
+    { "tipo": "residencial", 
+      "local": "Asgard" 
+    },
+    {
+      "tipo": "comercial",
+      "local": "terra"
+    }
+  ]
+}
