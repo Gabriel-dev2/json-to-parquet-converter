@@ -50,6 +50,17 @@ para um arquivo .parquet(flat)
 
         docker run json_to_parquet:Dockerfile
 
+
+## Execução de testes unitários
+
+**Para a execução dos testes unitários é necessário a instalação da lib pytest**
+
+        pip install pytest
+
+**Para executar os testes basta digitar o seguinte comando no terminal (dentro do diretório do root do projeto)**
+        
+        pytest
+
 ## Authors
 
 * **Gabriel Lucas** - *Initial work* - [Gabriel](mailto:gabriel23costalima@outlook.com)
