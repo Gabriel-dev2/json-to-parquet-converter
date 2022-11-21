@@ -2,7 +2,7 @@ import pandas as pd
 
 class JsonToParquetService(object):
     
-    def __init__(self, parquet_path = '/tmp'):
+    def __init__(self, parquet_path = '/tmp/out.parquet'):
         self.parquet_path = parquet_path
     
     
@@ -68,10 +68,10 @@ class JsonToParquetService(object):
         
         df_completo = self.__criar_data_frame_telefones(df_endereco)
         
-        df_completo.to_parquet(f'{self.parquet_path}/out.parquet')
+        df_completo.to_parquet(self.parquet_path)
         
     
     def ler_arquivo_parquet(self):
-        data = pd.read_parquet(f'{self.parquet_path}/out.parquet')
-        return data
+        data = pd.read_parquet(self.parquet_path)
+        return data, self.parquet_path
         

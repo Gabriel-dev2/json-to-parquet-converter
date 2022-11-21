@@ -5,6 +5,7 @@ if  __name__ == '__main__':
     
     jps.criar_arquivo_parquet('../arquivo.json')
     
-    data = jps.ler_arquivo_parquet()
+    data, parquet_file = jps.ler_arquivo_parquet()
     
     print(data)
+    print(f'File path {parquet_file}')
